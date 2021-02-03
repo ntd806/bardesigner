@@ -1,0 +1,29 @@
+/*#cc9900; yellow color*/
+/*#ffc000; semi yellow color*/
+
+header .wrapper {
+	border-bottom: 5px solid #ffc000;
+}
+.navbar-brand img {
+	height: 90px;
+}
+.navbar-brand {
+	line-height: 90px;
+	color: #cc9900;
+	font-size: 30px;
+	font-weight: bold;
+}
+.navbar-brand:hover {
+	color: #cc9900;
+}
+.btn-back-yellow {
+	background-color: #000;
+	color: #cc9900;
+	font-size: 20px;
+}
+.btn-back-yellow:hover {
+	color:#fff;
+}
+.btn-back {
+	padding-left: 30px;
+}

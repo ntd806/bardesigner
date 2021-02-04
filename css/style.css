@@ -1,8 +1,35 @@
 /*#cc9900; yellow color*/
 /*#ffc000; semi yellow color*/
-
+.bg-a {
+	background-color: #e2efda;
+}
+.bg-b {
+	background-color: #c6e0b4;
+}
+.bg-c {
+	background-color: #ddebf7;
+}
+.bg-d {
+	background-color: #ffc000;
+}
+.bg-e {
+	background-color: #fce4d6;
+}
+.bg-f {
+	background-color: #f8cbad;
+}
+.bg-g {
+	background-color: #d6dce4;
+}
+.bg-h {
+	background-color: #acb9ca;
+}
+.bg-i {
+	background-color: #cc9900;
+}
 header .wrapper {
 	border-bottom: 5px solid #ffc000;
+	margin-bottom: 20px;
 }
 .navbar-brand img {
 	height: 90px;
@@ -26,4 +53,72 @@ header .wrapper {
 }
 .btn-back {
 	padding-left: 30px;
+}
+.heading-w-y {
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 2px solid #ffc000;
+	margin-bottom: 10px;
+}
+
+.facts .item {
+	border: 1px solid #ccc;
+	margin-bottom: 30px;
+}
+.facts .item .left {
+	border-right: 1px solid #ccc;
+}
+.facts .item .label {
+	height: 100%;
+	border-bottom: 1px solid #ccc;
+	padding: 3px;
+}
+.facts .item .label span {
+	height: 100%;
+    width: 100%;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: center;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.facts .item .input-form {
+	display: -ms-flexbox;
+    display: flex;
+	-ms-flex-align: center;
+    align-items: center;
+}
+.facts .item input {
+	margin: 10px 0;
+	border: none;
+	background-color: transparent;
+}
+.facts .item .only-label .right span {
+	font-weight: normal;
+}
+.btn-action {
+	background-color: #000;
+	border-radius: 50%;
+	width: 50px;
+	height: 49px;
+	padding: 0;
+}
+.action-btn {
+	width: max-content;
+}
+.action-btn label {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+.register-content label {
+	font-weight: bold;
+}
+.note {
+	padding-bottom: 30px;
 }
